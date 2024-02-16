@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd
+    http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+
+<bean class="com.praveen.MobileService" id="mobileService1">
+    <property name="modelNo" value="1"/>
+    <property name="companyName" value="cjss"/>
+    <property name="price" value="25000.0"/>
+</bean>
+<bean class="com.praveen.MobileService" id="mobileService2" >
+    <property name="modelNo" value="2"/>
+    <property name="companyName" value="wipro"/>
+    <property name="price" value="30000.0"/>
+</bean>
+</beans>
